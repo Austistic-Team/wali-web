@@ -1,102 +1,38 @@
-header {
-display: flex;
-justify-content: space-between;
-align-items: center;
-background-color: #24252a;
-margin: -8px;
-padding: 15px;
+header ul{
+  display: inline;
+  width: 340px;
+  padding-right:20px;
+  margin: 0;
+  padding: 0 0 2px;
 }
 
-.nav__links a,
-.cta,
-.overlay__content a {
-font-family: "Montserrat", sans-serif;
-font-weight: 500;
-color: #edf0f1;
-text-decoration: none;
+header ul li{
+  list-style: none;
+  display: inline;
 }
 
-.nav__links {
-list-style: none;
-display: flex;
+.a,.b {
+
+  border: 3px solid;
+  padding: 10px;
+  text-align: center;
+
 }
 
-.nav__links li {
-padding: 0px 20px;
-}
-
-.nav__links li a {
-transition: color 0.3s ease 0s;
-}
-
-.nav__links li a:hover {
-color: #f2bd36;
-}
-
-.cta {
-padding: 9px 25px;
-background-color: burlywood;
-border: none;
-border-radius: 50px;
-cursor: pointer;
-transition: background-color 0.3s ease 0s;
-}
-
-.cta:hover {
-background-color: #f2bd36;
+.a{
+  margin-left: 350px;
 }
 
 
-
-.menu {
-display: none;
+.c{
+  float: right;
+  padding: 10px;
 }
 
-.overlay {
-height: 100%;
-width: 0;
-position: fixed;
-z-index: 1;
-left: 0;
-top: 0;
-background-color: #24252a;
-overflow-x: hidden;
-transition: width 0.5s ease 0s;
+header h1 {
+  margin: 0;
+  padding: 0;
+  display: inline;
+  float:left;
 }
 
-.overlay--active {
-width: 100%;
-}
-
-.overlay__content {
-display: flex;
-height: 100%;
-flex-direction: column;
-align-items: center;
-justify-content: center;
-}
-
-.overlay a {
-padding: 15px;
-font-size: 36px;
-display: block;
-transition: color 0.3s ease 0s;
-}
-
-.overlay a:hover,
-.overlay a:focus {
-color: #0088a9;
-}
-.overlay .close {
-position: absolute;
-top: 20px;
-right: 45px;
-font-size: 60px;
-color: #edf0f1;
-}
-
-.logo {
-  font-family: monospace;
-  color: antiquewhite;
-  font-size: 20px;
-}
