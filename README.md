@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, we're the Austistic-Team</h1>
+<h1 align="center">Hi 👋, we're the Autistic-Team</h1>
 <h3 align="center">A team of autistic devs</h3>
 
 - 🔭 We’re currently working on [Our team's portfolio](https://github.com/Austistic-Team/wali-web)
