@@ -1,31 +1,46 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
     <link rel="icon" type="image/jpg" href="img/autismo.jpg">
-    <title>Autistic-Team</title>
+    <title>autistic-team</title>
 </head>
+
 <body>
   
-  <header>
+  <div class="nav_bar">
 
-
-    <h1 class="w_txt">Autistic-Team</h1>
     <nav>
-
-      <ul class="lista">
-        <li class="a"><a href="">Sobre nosotros</a></li>
-        <li class="b"><a href="">Mision/Vision</a></li>
-        <li class="c"><button id="contact_btn"><span>Contactanos</span></button></li>
+      <ul class="nav">
+        <li class="nav_home"><a href="">Autistic-Team</a></li>
+        <li id="nav_item_1" class="nav_item"><a href="">Proyects</a></li>
+        <li id="nav_item_2" class="nav_item"><a href="">Mission/Vision</a></li>
+        <li class="nav_abt_btn"><button id="abt_btn">About us</button></li>
       </ul>
-
-    </nav>
+    </nav>  
     
+  </div>
 
-  </header>
+  <div class="about_modal" id="abt_modal">
+
+    <div class="about_modal_content">
+      <h1>HEADER (TEST)</h1>
+      <p>test test test test test test test test test test test test test 
+      test test test test test test test test test test test test test 
+      test test test test test test test test test test test test test
+      test test test test test test test test test test test test test 
+      test test test test test test test test test test test test test 
+      test test test test test test test test test test test test test 
+      test test test test test test test test test test test test test 
+      test test test test test test test test test test test test test </p>
+      <button class="modal_btn_close" id="modal_btn_close">Close</button>
+    </div> 
+
+  </div>
 
 
 </body>
