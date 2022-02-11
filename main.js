@@ -3,9 +3,9 @@ const abt_btn_close = document.getElementById("modal_btn_close");
 const abt_modal = document.getElementById("abt_modal"); 
 
 //typewritter variables
-var typewritterMessage = ["cool developers","cat lovers","Autistic-Team"];
+var typewritterMessage = ["cool developers","cat lovers","the Autistic-Team"];
 var textPosition = 0;
-var speed = 100;
+var speed = 130;
 
 //modal events
 abt_btn_open.addEventListener("click", show_modal);
