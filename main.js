@@ -3,7 +3,7 @@ const abt_btn_close = document.getElementById("modal_btn_close");
 const abt_modal = document.getElementById("abt_modal"); 
 
 //typewritter variables
-var typewritterMessage = ["autistic developers","cat lovers","cool niggers"];
+var typewritterMessage = ["cool developers","cat lovers","Autistic-Team"];
 var textPosition = 0;
 var speed = 100;
 
