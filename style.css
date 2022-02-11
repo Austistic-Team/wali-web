@@ -174,3 +174,38 @@ a{
 }
 
 
+/* typewritter team text */
+
+
+.team_text{
+  margin-top: 10%;
+  padding: 10px;
+  justify-content: center;
+  background-color: rgba(0,0,0,0.2);
+  display: flex;
+  width: 100%;
+}
+
+.team_text_content{
+  text-align: center;
+  width: 100%;
+  max-width: 100%;
+  display: inline;
+  font-size: 70px;
+  color: white;
+	text-shadow: 5px 5px 0px rgba(0,0,0,0.2);
+}
+
+.team_text_text{
+  display: inline;
+}
+
+#team_text_typew span{
+  animation: blinker 1s linear infinite;  
+}
+
+@keyframes blinker{
+  50%{
+    opacity: 0;
+  }
+}
