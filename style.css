@@ -1,9 +1,9 @@
-/* Reseting default tag properties */
+
 
 * {
 
   box-sizing: border-box;
-  
+
 }
 
 body{
@@ -31,7 +31,7 @@ a{
   color: inherit;
 }
 
-/* Nav bar styling */
+
 
 .nav_bar .nav{
   display: inline;
@@ -71,7 +71,7 @@ a{
 }
 
 .nav_bar {
-  background-color: #3A3B3C; 
+  background-color: #3A3B3C;
   padding: 30px;
   width: 100%;
   position: fixed;
@@ -107,7 +107,7 @@ a{
   text-shadow: 5px 5px 0px rgba(0,0,0,0.2);
   font-size: 35px;
   transition: .5s ease-out;
-	
+
 }
 
 .nav_home:hover{
@@ -176,10 +176,10 @@ a{
 }
 
 
-/* typewritter team text */
+
 
 .bg_gif{
-  position: absolute; 
+  position: absolute;
   left: 0;
   right: 0;
   margin-top: 7%;
@@ -218,7 +218,7 @@ a{
 }
 
 #team_text_typew span{
-  animation: blinker 1s linear infinite;  
+  animation: blinker 1s linear infinite;
 }
 
 @keyframes blinker{
