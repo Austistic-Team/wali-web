@@ -1,13 +1,13 @@
-
+/* Reseting default tag properties */
 
 * {
 
   box-sizing: border-box;
-
+  
 }
 
 body{
-  background-color: lightgray;
+  background-color: #536872;
   padding: 0;
   margin: 0;
   font-family:"Helvetica Neue", Arial;
@@ -31,7 +31,7 @@ a{
   color: inherit;
 }
 
-
+/* Nav bar styling */
 
 .nav_bar .nav{
   display: inline;
@@ -50,33 +50,31 @@ a{
 
 .nav_abt_btn{
   float: right;
-  margin: 0;
-  padding: 0.75rem 1.5rem;
+  padding: 0.2rem 1.2rem;
   position:relative;
-  top: -15px;
-  border: 0;
+  left: -1%;
+  top: -7.5px;
+  border: 2px solid #acb4c7;
   border-radius: 2rem;
-  background-color: #A9A9A9;
-  color: #fff;
+  color: #acb4c7;
   text-decoration: none;
-  font-weight: 700;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   line-height: 1.5;
   transition: .5s ease-out;
 }
 
 .nav_abt_btn:hover{
-  background-color: #808080;
-
+  color: #66f;
+  border: 2px solid #66f;
 }
 
 .nav_bar {
-  background-color: #3A3B3C;
-  padding: 30px;
+  background-color: #3c4250;
+  padding: 20px;
   width: 100%;
   position: fixed;
   top: 0;
-  bottom: 86.5%;
+  bottom: 90%;
   z-index: 2;
 }
 .nav{
@@ -85,35 +83,30 @@ a{
 
 .nav_item{
   text-align: center;
-  font-size: 25px;
-  color: #FFFDE4;
+  font-size: 18px;
+  color: #acb4c7;
   transition: .5s ease-out;
-}
-
-#nav_item_2{
-  margin-left:35px;
+  padding-right: 15px;
 }
 
 .nav_item:hover {
-  color: #F6CD8B;
+  color: #66f;
 }
 
 .nav_home{
   float: left;
   line-height: 20px;
-  color: #FF7F00;
-  font-weight:700;
-  margin-right: 22%;
-  text-shadow: 5px 5px 0px rgba(0,0,0,0.2);
-  font-size: 35px;
+  color: #acb4c7;
+  margin-right: 28.5%;
+  margin-left: 1%;
+  font-size: 20px;
   transition: .5s ease-out;
-
+	
 }
 
-.nav_home:hover{
-  color: red;
+.nav_home span{
+  color: #66f;
 }
-
 
 
 .about_modal{
@@ -176,19 +169,16 @@ a{
 }
 
 
-
+/* typewritter team text */
 
 .bg_gif{
-  position: absolute;
+  position: absolute; 
   left: 0;
   right: 0;
-  margin-top: 7%;
   z-index: -1;
-  display: block;
   background-image: url("img/gif_autista.gif");
   width: 100%;
   height: 380px;
-  margin-top: 4%;
   filter: blur(8px);
 }
 
@@ -218,7 +208,7 @@ a{
 }
 
 #team_text_typew span{
-  animation: blinker 1s linear infinite;
+  animation: blinker 1s linear infinite;  
 }
 
 @keyframes blinker{
